@@ -46,7 +46,7 @@
                                     </div>
 
                                     <div>
-                                        <button type="button" class="d-flex ms-auto btn btn-submit rounded-pill px-4 justify-content-center w-50" data-bs-toggle="modal"data-bs-target="#submitModal" id="button">Submit</button>
+                                        <button type="submit" class="d-flex ms-auto btn btn-submit rounded-pill px-4 justify-content-center w-50" data-bs-toggle="modal"data-bs-target="#submitModal" id="button" :disabled="isLoading">{{ isLoading? "Sending..." :"Submit" }}</button>
                                     </div>
 
                                     
@@ -66,26 +66,26 @@
         <!-- End of Contact Section -->
 
         <!-- Submit Modal -->
-        <div class="modal fade" id="submitModal" tabindex="-1" aria-labelledby="submitModalLabel" aria-hidden="true">
+<!--         <div class="modal fade" id="submitModal" tabindex="-1" aria-labelledby="submitModalLabel" aria-hidden="true">
             <div class="modal-dialog">
                 <div class="modal-content">
-
+ -->
                     <!-- Modal Header -->
-                    <div class="modal-header">
+<!--                     <div class="modal-header">
                         <h5 class="modal-title" id="submitModalLabel">I Got Your Message — Talk Soon!</h5>
                         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
+                    </div> -->
                     <!-- Modal Body -->
-                    <div class="modal-body">
+<!--                     <div class="modal-body">
                         Looking forward to collaborating with you and creating meaningful digital experiences.
-                    </div>
+                    </div> -->
                     <!-- Modal Footer -->
-                    <div class="modal-footer">
+<!--                     <div class="modal-footer">
                         <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
 
 </template>
 
