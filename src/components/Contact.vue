@@ -147,7 +147,7 @@
     }
 
 
-    const SITE_KEY="6LfQBNwrAAAAAPqanWd4NI0r08yq8oX3Sz08zWQt"
+    const SITE_KEY="6Lc6L9wrAAAAAH_tNT0klI23IgxtNmCINdx-gH9q"
     
     const recaptchaContainer = ref(null);
     const recaptchaWidgetId = ref(null);
