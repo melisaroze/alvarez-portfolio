@@ -1,6 +1,6 @@
 <template>	
 	         <!-- My Projects -->
-            <section class="pb-5">
+            <section class="pb-5" id="projects">
                 <h2 class="mt-5 mb-5 pb-4 text-center" id="projects-title">My Projects</h2>
                
                  <div
