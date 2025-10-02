@@ -1,0 +1,201 @@
+* {
+	font-family: Space Grotesk;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+nav {
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 100%;
+	text-align: center;	
+	background: #000000;
+	border-bottom: 1px solid white;
+
+}
+
+nav a {
+		color: #FFFFFF !important;
+		letter-spacing: 1px;
+}
+
+
+#navbarNav {
+	text-align: center;
+}
+
+#landing {
+	background: #000000;
+}
+
+.hover-text-warning:hover {
+	color: #FFA500 !important;
+}
+
+.hover-text-light:hover {
+	color: #FFFFFF !important;
+}
+
+#my-picture {
+	width: 250px;
+}
+
+
+#title {
+	font-weight: 600;
+	line-height: 50px;
+	color: #FFA500;
+}
+
+#cta {
+	background: #FFA500;
+	letter-spacing: 1.5px;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+
+#projects-title {
+	font-weight: 400 !important;
+	font-size: 24px !important;
+	letter-spacing: 2px;
+	color: #FFA500;
+	text-decoration: underline;
+}
+
+.project-card-size {
+	width: 22rem;
+}
+
+.card {
+	background: #000000;
+	color: #FFFFFF;
+	box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+}
+
+.card-title {
+	color: #FFA500;
+}
+
+.card-text {
+	color: #FFFFFF;
+}
+
+.card:hover {
+  transform: scale(1.03);
+  transition: transform 0.3s ease;
+}
+
+#cta:hover {
+  background-color: #ffb733;
+}
+
+
+
+#tools {
+	font-weight: 300 !important;
+	font-size: 24px !important;
+	text-align: center;
+	color: #FFFFFF;
+	background: #000000;
+}
+
+#tools-title {
+	font-family: Space Grotesk;
+	font-weight: 400 !important;
+	line-height: 50px;
+	text-decoration: underline;
+	color: #FFA500;
+}
+
+#tools h2 {
+	font-family: Space Grotesk;
+	font-weight: 400;
+	font-size: 20px !important;
+	line-height: 100% !important;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.logo-icon {
+	width: 60px;
+	height: 60px;
+	margin: 2px;
+}
+
+#contact-title {
+	font-weight: 400 !important;
+	font-size: 24px !important;
+	text-decoration: underline;
+	color: #FFA500;
+}
+
+#contact-form h2 {
+	font-family: Space Grotesk;
+	font-weight: 300;
+	font-size: 40px;
+	text-decoration: underline;
+	line-height: 100%;
+	color: #000000;
+}
+
+#contact-form p {
+	font-family: Space Grotesk;
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 100%;
+	color: #000000;
+}
+
+
+
+#contact-form {
+	padding: 3rem 2rem;
+	color: #765C3D
+}
+
+#contact-form * {
+  width: 100%;
+
+
+}
+
+input::placeholder,
+textarea::placeholder {
+  
+  font-family: Space Grotesk;
+  font-weight: 300;  
+  line-height: 100%;
+  vertical-align: middle;
+  color: #000000 !important;
+}
+
+
+#button{
+	background: #FFA500;
+	font-family: Space Grotesk;
+	font-weight: 400;
+	font-size: 14px;
+	letter-spacing: 1.5px;
+	text-align: center;
+	color: #FFFFFF;
+
+}
+
+.icon-color {
+	color: #ffa500;
+}
+
+
+footer {
+	font-family: Space Grotesk;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 100%;
+	text-align: center;
+	color: #000000;
+	background-color: #FFA500;
+}
+
+
